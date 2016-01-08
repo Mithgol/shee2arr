@@ -27,6 +27,8 @@ var array2D = shee2arr(anExcelSheet);
 
 ## Testing shee2arr
 
+[![(build testing status)](https://img.shields.io/travis/Mithgol/shee2arr/master.svg?style=plastic)](https://travis-ci.org/Mithgol/shee2arr)
+
 It is necessary to install [JSHint](http://jshint.com/) for testing.
 
 * You may install JSHint globally (`npm install jshint -g`) or locally (`npm install jshint` in the directory of shee2arr).
