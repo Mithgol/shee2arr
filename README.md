@@ -1,6 +1,6 @@
 [![(a histogram of downloads)](https://nodei.co/npm-dl/shee2arr.png?height=3)](https://npmjs.org/package/shee2arr)
 
-This module (`shee2arr`) converts an Excel sheet to a 2D array; that Excel sheet has to be returned by the [`xlsx`](https://github.com/SheetJS/js-xlsx/) module.
+This module (`shee2arr`) converts an Excel sheet to a 2D array; that Excel sheet has to be returned from the [`xlsx`](https://github.com/SheetJS/js-xlsx/) module, which is also used to parse the sheet.
 
 This module is written in JavaScript and requires [Node.js](http://nodejs.org/) to run.
 
@@ -24,6 +24,14 @@ When you `require()` the installed module, you get a function that is given
 var shee2arr = require('shee2arr');
 var array2D = shee2arr(anExcelSheet);
 ```
+
+## Testing shee2arr
+
+It is necessary to install [JSHint](http://jshint.com/) for testing.
+
+* You may install JSHint globally (`npm install jshint -g`) or locally (`npm install jshint` in the directory of shee2arr).
+
+After that you may run `npm test` (in the directory of shee2arr). Only the JS code errors are caught; the code's behaviour is not tested.
 
 ## License
 

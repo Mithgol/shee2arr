@@ -1,7 +1,7 @@
 {
 "name": "shee2arr",
 "main": "shee2arr.js",
-"version": "0.0.1",
+"version": "0.1.0",
 "description": "Uses the xlsx module to convert an Excel sheet to a 2D array.",
 "keywords": ["Excel", "xlsx", "array"],
 "author": { "name": "Mithgol the Webmaster" },
@@ -9,5 +9,11 @@
 "repository": {
    "type": "git",
    "url": "https://github.com/Mithgol/shee2arr.git"
+},
+"dependencies": {
+   "xlsx": "~0.8.0"
+},
+"scripts": {
+   "test": "jshint --verbose shee2arr.js"
 }
 }

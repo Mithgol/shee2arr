@@ -1,3 +1,5 @@
+var xlsx = require('xslx');
+
 module.exports = function(sheet){
    var result = [];
    var row;
