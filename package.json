@@ -1,7 +1,7 @@
 {
 "name": "shee2arr",
 "main": "shee2arr.js",
-"version": "0.1.0",
+"version": "0.1.1",
 "description": "Uses the xlsx module to convert an Excel sheet to a 2D array.",
 "keywords": ["Excel", "xlsx", "array"],
 "author": { "name": "Mithgol the Webmaster" },

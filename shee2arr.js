@@ -1,4 +1,4 @@
-var xlsx = require('xslx');
+var xlsx = require('xlsx');
 
 module.exports = function(sheet){
    var result = [];
