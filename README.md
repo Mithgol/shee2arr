@@ -18,7 +18,7 @@ You may visit https://github.com/Mithgol/shee2arr#readme occasionally to read t
 
 ## Using shee2arr
 
-When you `require()` the installed module, you get a function that is given an Excel sheet and returns a 2D array of that sheet's rows and columns:
+When you `require()` the installed module, you get a function that receives an Excel sheet and returns a 2D array of that sheet's rows and columns:
 
 ```js
 var shee2arr = require('shee2arr');
